@@ -34,8 +34,8 @@ y = [math.sin(i * 2.0 * math.pi / 10.0) * 5.0 for i in x]
 plt.plot(x, y)
 
 # create the training points and test points
-train_points = generate_points(9)
-test_points = generate_points(9)
+train_points = generate_points(999)
+test_points = generate_points(999)
 
 # Insert num_points randomly within [-10, 10],[-10,10]. Label them True or
 # False depending on whether they're above or below the sine wave.
