@@ -57,4 +57,4 @@ for test_point in test_points:
 correct = sum([classified_test_points[index][2] == tested_classifications[index]
                for index in range(len(classified_test_points))])
 percent_correct = correct / len(tested_classifications) * 100
-print(correct / len(tested_classifications) * 100, "percent of the classifications are correct.")
+print(percent_correct, "percent of the classifications are correct.")
